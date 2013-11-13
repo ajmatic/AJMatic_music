@@ -1,0 +1,185 @@
+#container {
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
+
+#sidebar {
+	position: fixed;
+	width: 15%;
+	height: 100%;
+	background-position: fixed;
+	display: block;
+	float: left;
+	padding-top: 0.625rem;
+}
+
+#sidebar2 {
+	position: fixed;
+	width: 15%;
+	height: 100%;
+	right: 3.938rem;
+	bottom: 0;
+	text-align: right;
+}
+
+#gibson {
+	width: 10rem;
+	height: 15rem;
+}
+
+#adamguitar2 {
+	width: 26.21875rem;
+	height: 28.125rem;
+	text-align: center;
+	clear: both;
+	margin-top: 1.875rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#adamguitar {
+	width: 324px;
+	height: 242px;
+	text-align: center;
+	clear: both;
+	margin-top: 1.875rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#string {
+	width: 10rem;
+	height: 15rem;
+	padding-top: 0.625rem;
+}
+
+h1 {
+	color: #2E2E1F;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 5.000rem;
+	margin: 0;
+	margin-top: 0.625rem;
+	display: inline-block;
+	text-shadow: 0.188rem 0.188rem 1rem #4C4C33;
+}
+
+#lockup {
+	display: inline-block;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	
+}
+
+h2 {
+	color: #2E2E1F;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 2.500rem;
+	text-align: center;
+	margin-top: 0.938rem;
+	text-shadow: 0.1625rem 0.1625rem .75rem #4C4C33;
+}
+
+h3 {
+	font-size: 1.563rem;
+	margin-top: 1.250rem;
+}
+
+#text p {
+	text-align: justify;
+	
+	font-family: Georgia, Times, Serif;
+	font-size: 1.250rem;
+	line-height: 1.875rem;
+	text-indent: 0.625rem;
+	color: #3D3D38;
+	margin-top: 1.250rem;
+}
+
+#sect {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	clear: both;
+}
+
+#cap {
+	text-align: center;
+}
+
+#main ul a {
+	color: #4C4C33;
+	text-decoration: none;
+}
+
+#main ul {
+	list-style-type: none;
+}
+
+
+#main li {
+	line-height: 1.875rem;
+}
+
+
+#main a:hover {
+	color: #1919D1;
+}
+
+#main2 ul a {
+	color: #4C4C33;
+	text-decoration: none;
+}
+
+#main2 ul {
+	list-style-type: none;
+}
+
+#main2 li {
+	line-height: 1.875rem;
+}
+
+#main2 a:hover {
+	color: #1919D1;
+}
+
+#adamtat {
+	width: 21.250rem;
+	height: 15.938rem;
+	text-align: center;
+	clear: both;
+	margin-top: 1.875rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	padding-bottom: 1.5rem;
+}
+
+#lyrichead {
+	text-align: left;
+	text-indent: -1.5rem;
+}
+
+#soundhead {
+	text-align: center;
+}
+

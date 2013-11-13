@@ -1,0 +1,128 @@
+#sidebar {
+	position: fixed;
+	width: 25%; 
+	top: 25px;
+	bottom: 0;
+	left: 100px;
+}
+
+
+
+#gibson {
+	width: 160px;
+	height: 240px;
+}
+
+
+#main ul a {
+	color: #4C4C33;
+	text-decoration: none;
+}
+
+#main ul {
+	list-style-type: none;
+}
+
+
+#main li {
+	line-height: 30px;
+}
+
+
+#lockup {
+	display: inline-block;
+}
+
+#main a:hover {
+	color: #1919D1;
+}
+
+#lockup {
+	display: inline-block;
+}
+
+#sidebar2 {
+	position: fixed;
+	width: 25%;
+	top: 25px;
+	right: 100px;
+	bottom: 0;
+	text-align: right;
+}
+
+#sidebar2 ul {
+	list-style-type: none;
+}
+
+#sidebar2 ul li {
+	width: 160px;
+	
+}
+
+#main2 ul a {
+	color: #4C4C33;
+}
+
+#main2 li {
+	line-height: 30px;
+	margin-left: 70px;
+}
+
+#string {
+	width: 160px;
+	height: 240px;
+	
+}
+
+header {
+	width: 55%;
+	margin-left: 30%
+}
+
+h1 {;
+	color: #2E2E1F;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 80px;
+	margin: 0;
+	display: inline-block;
+	text-shadow: 2px 2px 0px #2E2E1F;;
+}
+
+h2 {
+	color: #2E2E1F;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	text-shadow: 1px 1px 0px #2E2E1F;
+}
+
+#text {
+	text-align: center;
+}
+
+#adamguitar {
+	width: 372px;
+	height: 432px;
+	margin-left: 35%;	
+}
+
+#body {
+	width: 55%;
+	margin-left: 30%;
+	clear: both;
+}
+
+#text p {
+	text-align: justify;
+	margin-right: 200px;
+	font-family: Georgia, Times, Serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-indent: 10px;
+	color: #3D3D38;
+}
+
+#main2 a:hover {
+	color: #1919D1;
+}
