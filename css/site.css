@@ -106,13 +106,46 @@ h3 {
 
 #text p {
 	text-align: justify;
-	
 	font-family: Georgia, Times, Serif;
 	font-size: 1.250rem;
 	line-height: 1.875rem;
 	text-indent: 0.625rem;
 	color: #3D3D38;
 	margin-top: 1.250rem;
+}
+
+#altnav li {
+	display: inline-block;
+}
+
+#altnav ul {
+	text-align: center;
+	word-spacing: .6rem;
+	font-size: 1.75rem;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+#songs ul li {
+	color: #0000FF;
+}
+
+
+
+#songs ul {
+	color: #0000FF;
+	text-align: center;
+	font-size: 2.5rem;
+	text-decoration: underline;
+	font-family: 'Nothing You Could Do', cursive;
+	line-height: 5rem;
+}
+
+#text li a {
+	color: #0000FF;
+}
+
+#text a:hover {
+	color: #3D3D38;
 }
 
 #sect {
@@ -138,6 +171,7 @@ h3 {
 
 #main li {
 	line-height: 1.875rem;
+	font-family: 'Overlock SC', cursive;
 }
 
 
@@ -156,6 +190,7 @@ h3 {
 
 #main2 li {
 	line-height: 1.875rem;
+	font-family: 'Overlock SC', cursive;
 }
 
 #main2 a:hover {
@@ -180,6 +215,13 @@ h3 {
 }
 
 #soundhead {
-	text-align: center;
+	text-align: left;
+	color: #0000FF;
 }
+
+#daily p {
+	text-align: left;
+}
+
+
 
