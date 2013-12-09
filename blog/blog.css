@@ -1,0 +1,150 @@
+/* Layout */
+
+/*body {
+	margin: 0;
+	padding: 0;
+}
+
+#maincontent, 
+#header, 
+#footer {
+	width: 714px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 142px;
+}
+
+#footer {
+	padding: 10px 0 3em 0;
+}
+
+#maincontent {
+	height: 1%;
+	overflow: auto;
+	padding-bottom: 3em;
+}
+
+#posts {
+	width: 479px;
+	float: left;
+}
+
+#sidebar {
+	margin-left: 505px;
+	padding-right: 25px;
+}
+
+h1 a {
+	display: block;
+	widows: 385px;
+	height: 140px;
+	text-indent: -1000em;
+	margin: 0;
+}
+
+
+
+body {
+	font-family: Georgia, Palatino, serif;
+	font-size: 62.5%;
+}
+
+html>body {
+	font-size: 10px;
+}
+
+h1, 
+h2, 
+h3 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+	line-height: 1em;
+	padding-top: 1em;
+}
+
+h2 a {
+	text-decoration: none;
+}
+
+#posts h3 {
+	font-weight: normal;
+	line-height: 1em;
+	font-size: 1.4em;
+	margin-top: 1em;
+}
+
+h4 {
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1em;
+	font-size: 1.2em;
+}
+
+.post, 
+dl, 
+#posts, 
+ul, 
+#comments p, 
+#results p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+#comments dd p {
+	font-size: 1em;
+	padding-left: 0;
+}
+
+dd {
+	margin-left: 0;
+}
+
+#posts h2, 
+#posts h3, 
+#posts h4, 
+#posts h5, 
+.post, 
+dl,
+#posts ul,
+#comments p,
+#results p {
+	padding-left: 61px;
+}
+
+.post p {
+	margin-top: 0;
+}
+
+html>body .post p {
+	margin-bottom: 0;
+}
+
+.post p+p {
+	text-indent: 1.5em;
+}
+
+.post {
+	padding-bottom: 1em;
+}
+
+#sidebar {
+	font-size: 1.1em;
+	line-height: 1.3636em;
+}
+
+#sidebar p,
+#sidebar ul {
+	margin-left: 16px;
+	padding-left: 0;
+}
+
+#sidebar li {
+	margin-left: 16px;
+	margin-bottom: 0.682em;
+}

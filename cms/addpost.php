@@ -42,6 +42,22 @@ $post_id = (isset($_REQUEST["post_id"]))?$_REQUEST["post_id"]:"";
 if (preg_match("/^[0-9]+$/", $post_id)) {
 	$editmode = true;
 
+	//If form has been submitted, update post
+	if (isset($_POST["submitUpdate"])) {
+		$sql = "UPDATE posts SET
+		title = '$db_title',
+		postdate = '$db_postdate',
+		summary = '$db_summary',
+		post = '$db_post'
+		WHERE post_id = $post_id";
+	$result = mysql_query($sql);
+	if (!$result) {
+		$message = "Failed to update post. MySQL said " . mysql_error();
+	} else {
+		$message = "Succefully updated post '$title'."; 
+	}
+	}
+
 	$sql = "SELECT title, postdate, summary, post FROM posts WHERE post_id=$post_id";
 	$result = mysql_query($sql);
 	$mypost = mysql_fetch_array($result);
@@ -65,11 +81,36 @@ if (preg_match("/^[0-9]+$/", $post_id)) {
 	<head>
 		<meta http-equiv="content-type"
 		content="text/html; charset=iso-8859-1" />
-		<title>Add a Post - BLog CMS</title>
+
+		<title>
+			<?php 
+			switch ($editmode) {
+			case true:
+				echo "Edit a post";
+				break;
+			case false:
+				echo "Add a post";
+				break;
+			}
+			?>
+			 - BLog CMS
+		</title>
+		<style type="text/css"> @import url(../cms/css/cms.css); </style>
 	</head>
 	<body>
-		
-		<h1>Add a post</h1>
+		<?php include("nav.inc") ?>
+		<h1>
+			<?php 
+			switch ($editmode) {
+				case true:
+					echo "Edit a post";
+					break;
+				case false:
+					echo "Add a post";
+					break;
+			}
+			?>
+		</h1>
 		<?php 
 		if (isset($message)) {
 			echo "<p class='message'>$message</p>";
