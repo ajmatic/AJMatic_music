@@ -1,4 +1,6 @@
 <?php
+
+include($_SERVER["DOCUMENT_ROOT"] . "/blog/functions.php");
 //Open connection to database
 include("db_connect.php");
 
@@ -11,6 +13,7 @@ if (preg_match("/^[0-9]+$/", $delete)) {
 		$message = "Failed to delete post $delete. MySQL said " . mysql_error();
 	} else {
 		$message = "Post $delete deleted.";
+		$message .= "<br />" . makerssfeed();
 	}
 }
 

@@ -4,7 +4,7 @@ include ("functions.php");
 include("../cms/db_connect.php");
 
 //select 5 most recent posts
-$sql = "SELECT post_id, title, post, DATE_FORMAT(postdate, '%e %b %Y at %H:%i') AS dateattime FROM posts ORDER BY postdate DESC LIMIT 5";
+$sql = "SELECT post_id, title, post, DATE_FORMAT(postdate, '%e %b %Y at %H:%i') AS dateattime FROM posts ORDER BY post_id DESC LIMIT 7";
 $result = mysql_query($sql);
 $myposts = mysql_fetch_array($result);
 ?> 

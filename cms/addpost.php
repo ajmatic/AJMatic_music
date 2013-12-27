@@ -1,4 +1,6 @@
 <?php
+
+include($_SERVER["DOCUMENT_ROOT"] . "/blog/functions.php");
 //If magic quotes is turned on then strip slashes
 if (get_magic_quotes_gpc()) {
 	foreach ($_POST as $key => $value) {
@@ -32,6 +34,7 @@ if ($submitAdd) {
 		$message = "Failed to insert post. MySQL said " . mysql_error();
 	} else {
 		$message = "Successfully inserted post '$title'.";
+		$message .= "<br />" . makerssfeed();
 	}
 }
 
@@ -54,7 +57,8 @@ if (preg_match("/^[0-9]+$/", $post_id)) {
 	if (!$result) {
 		$message = "Failed to update post. MySQL said " . mysql_error();
 	} else {
-		$message = "Succefully updated post '$title'."; 
+		$message = "Successfully updated post '$title'.";
+		$message .= "<br />" . makerssfeed(); 
 	}
 	}
 
