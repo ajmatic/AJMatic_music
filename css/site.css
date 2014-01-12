@@ -1,4 +1,4 @@
-#container {
+.container {
 	width: 90%;
 	margin: 0 auto;
 	height: 100%;
@@ -16,7 +16,7 @@ h6 {
 }
 
 
-#sidebar {
+.sidebar {
 	position: fixed;
 	width: 15%;
 	height: 100%;
@@ -26,7 +26,7 @@ h6 {
 	padding-top: 0.625rem;
 }
 
-#sidebar2 {
+.sidebar2 {
 	position: fixed;
 	width: 15%;
 	height: 100%;
@@ -35,7 +35,7 @@ h6 {
 	text-align: right;
 }
 
-#gibson {
+.gibson {
 	width: 10rem;
 	height: 15rem;
 }
@@ -64,7 +64,7 @@ h6 {
 
 
 
-#string {
+.string {
 	width: 10rem;
 	height: 15rem;
 	padding-top: 0.625rem;
@@ -80,7 +80,7 @@ h1 {
 	text-shadow: 0.188rem 0.188rem 1rem #4C4C33;
 }
 
-#lockup {
+.lockup {
 	display: inline-block;
 	text-align: center;
 }
@@ -104,7 +104,7 @@ h3 {
 	margin-top: 1.250rem;
 }
 
-#text p {
+.text p {
 	text-align: justify;
 	font-family: Georgia, Times, Serif;
 	font-size: 1.250rem;
@@ -140,15 +140,15 @@ h3 {
 	line-height: 5rem;
 }
 
-#text li a {
+.text li a {
 	color: #0000FF;
 }
 
-#text a:hover {
+.text a:hover {
 	color: #3D3D38;
 }
 
-#sect {
+.sect {
 	width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -159,41 +159,41 @@ h3 {
 	text-align: center;
 }
 
-#main ul a {
+.main ul a {
 	color: #4C4C33;
 	text-decoration: none;
 }
 
-#main ul {
+.main ul {
 	list-style-type: none;
 }
 
 
-#main li {
+.main li {
 	line-height: 1.875rem;
 	font-family: 'Overlock SC', cursive;
 }
 
 
-#main a:hover {
+.main a:hover {
 	color: #1919D1;
 }
 
-#main2 ul a {
+.main2 ul a {
 	color: #4C4C33;
 	text-decoration: none;
 }
 
-#main2 ul {
+.main2 ul {
 	list-style-type: none;
 }
 
-#main2 li {
+.main2 li {
 	line-height: 1.875rem;
 	font-family: 'Overlock SC', cursive;
 }
 
-#main2 a:hover {
+.main2 a:hover {
 	color: #1919D1;
 }
 
@@ -210,12 +210,12 @@ h3 {
 }
 
 
-#soundhead {
+.soundhead {
 	text-align: left;
 	color: #0000FF;
 }
 
-#daily p {
+.daily p {
 	text-align: left;
 }
 
